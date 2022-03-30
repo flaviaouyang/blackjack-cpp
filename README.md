@@ -15,9 +15,13 @@ cd blackjack-cpp
 
 # compile
 g++ main.cpp -o main
+# or
+g++ main.cpp
 
 # run
 ./main
+# or
+./a.out
 
 # have fun;)
 ```
