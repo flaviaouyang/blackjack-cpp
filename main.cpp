@@ -319,12 +319,6 @@ public:
                 cout << "Player busts" << endl;
                 m_player.announce(1);
                 computerWon = computerWon + 1;
-                int total = computerWon + humanWon;
-                double win = (double)humanWon / total;
-
-                cout << "Your winning rate is " << win * 100 << "%" << endl;
-                cout << endl
-                     << endl;
                 return;
             }
             human = m_player.isDrawing();
@@ -350,10 +344,6 @@ public:
                 cout << "Casino busts" << endl;
                 m_player.announce(2);
                 humanWon = humanWon + 1;
-                int total = computerWon + humanWon;
-                double win = (double)humanWon / total;
-
-                cout << "Your winning rate is " << win * 100 << "%" << endl;
                 cout << endl
                      << endl;
                 return;
@@ -377,12 +367,6 @@ public:
         {
             m_player.announce(3);
         }
-
-        int total = computerWon + humanWon;
-        double win = (double)humanWon / total;
-
-        cout << "Your winning rate is " << win * 100 << "%" << endl;
-
         cout << endl
              << endl;
     }
