@@ -28,7 +28,7 @@ g++ main.cpp
 
 ## DEMO
 
-![](img/demo.gif)
+![](demo.gif)
 
 ## LICENSE
 
